@@ -15,7 +15,7 @@
 #define EEPROM_CODE			(0xa0) 			// код инициализации EEPROM 4 байта
 
 #define __RTC__								// флаг подключения RTC
-//#define __DEDUG__
+#define __DEDUG__							// включение semihosting
 /*
  * Параметры прошивки
  */

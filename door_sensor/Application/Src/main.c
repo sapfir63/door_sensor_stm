@@ -21,6 +21,7 @@ int main(void)
 {
 #ifdef __DEDUG__
 	initialise_monitor_handles();
+	printf("Start\n");
 #endif
 
 	SCB->VTOR = ((uint32_t) 0x1400); 			// установка нового указателя на прерывания
